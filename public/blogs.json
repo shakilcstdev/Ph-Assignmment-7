@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Vintage Rolex Watch",
+      "description": "A classic 1970s Rolex Submariner in excellent condition.",
+      "currentBidPrice": 5600.00,
+      "timeLeft": "2d 4h 30m",
+      "bidsCount": 14,
+      "image": "https://i.ibb.co.com/WNL5QLMv/1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Apple MacBook Pro 16",
+      "description": "Brand new MacBook Pro with M3 chip, 16GB RAM, and 1TB SSD.",
+      "currentBidPrice": 2150.50,
+      "timeLeft": "1d 1h 5m",
+      "bidsCount": 23,
+      "image": "https://i.ibb.co.com/ZRf8tj6w/2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Gibson Les Paul Guitar",
+      "description": "Used Gibson Les Paul electric guitar with hard case included.",
+      "currentBidPrice": 850.00,
+      "timeLeft": "3d 6h 15m",
+      "bidsCount": 8,
+      "image": "https://i.ibb.co.com/svTtRL5b/3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "LEGO Millennium Falcon Set",
+      "description": "Star Wars LEGO Ultimate Collector's Series Millennium Falcon, unopened.",
+      "currentBidPrice": 425.75,
+      "timeLeft": "12h 47m",
+      "bidsCount": 19,
+      "image": "https://i.ibb.co.com/YFz2zPDC/4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Nintendo Switch OLED",
+      "description": "Barely used Nintendo Switch OLED with two games included.",
+      "currentBidPrice": 310.00,
+      "timeLeft": "5d 2h 3m",
+      "bidsCount": 11,
+      "image": "https://i.ibb.co.com/v6gN10FL/5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Canon EOS R6 Camera",
+      "description": "Full-frame mirrorless camera body, lightly used, excellent condition.",
+      "currentBidPrice": 1420.90,
+      "timeLeft": "4d 23h 10m",
+      "bidsCount": 17,
+      "image": "https://i.ibb.co.com/JwDSggzJ/6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "PS5 Console Bundle",
+      "description": "PlayStation 5 with two controllers and four games.",
+      "currentBidPrice": 620.00,
+      "timeLeft": "3d 18h 42m",
+      "bidsCount": 26,
+      "image": "https://i.ibb.co.com/0j7v5q18/7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "GoPro HERO12 Black",
+      "description": "Latest GoPro action camera, waterproof, includes mounts and accessories.",
+      "currentBidPrice": 325.00,
+      "timeLeft": "2d 15h 8m",
+      "bidsCount": 9,
+      "image": "https://i.ibb.co.com/7xCvL85n/8.jpg"
+    }
+  ]
+  

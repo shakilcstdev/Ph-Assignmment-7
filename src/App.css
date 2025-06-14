@@ -1,0 +1,162 @@
+
+/* Toast Customization */
+.toast-container {
+  --toastify-icon-color-success: white;
+  --toastify-icon-color-error: white;
+}
+
+/* Add animation effects to toast notifications */
+.Toastify__toast {
+  transform: translateX(0);
+  animation: toast-slide-in 0.5s ease-out;
+  margin-bottom: 10px !important;
+}
+
+/* Override default animations to ensure no flip */
+.Toastify__bounce-enter--top-right,
+.Toastify__bounce-enter--bottom-right,
+.Toastify__bounce-enter--top-left,
+.Toastify__bounce-enter--bottom-left {
+  animation-name: toast-slide-in !important;
+}
+
+@keyframes toast-slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Make progress bar smoother */
+.Toastify__progress-bar {
+  height: 4px;
+  border-radius: 2px;
+}
+
+/* Enhance toast close button */
+.Toastify__close-button {
+  color: white;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+}
+
+/* Prevent toast duplication */
+.Toastify__toast-container {
+  width: auto !important;
+  max-width: 400px;
+}
+
+/* Mobile Menu Animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile menu animation */
+.md\:hidden.absolute {
+  animation: slideDown 0.3s ease-out forwards;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile Responsiveness */
+
+/* Responsive table styles */
+.responsive-table {
+  width: 100%;
+  table-layout: auto;
+}
+
+/* Common mobile styles */
+@media (max-width: 768px) {
+  /* Make table text smaller on mobile */
+  .responsive-table th,
+  .responsive-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  /* Adjust toast container for mobile */
+  .Toastify__toast-container {
+    width: 90% !important;
+    max-width: 300px;
+    padding: 0;
+    left: auto !important;
+    right: 10px !important;
+  }
+  
+  .Toastify__toast {
+    margin-bottom: 8px !important;
+    padding: 10px;
+    min-height: 60px;
+  }
+  
+  /* Make toast text smaller on mobile */
+  .Toastify__toast-body {
+    font-size: 0.875rem;
+    padding: 0 5px;
+  }
+
+  /* Make images in table take up less space */
+  .responsive-table img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  
+  /* Ensure icons are visible and appropriately sized */
+  .Toastify__toast-icon {
+    margin-right: 6px !important;
+    width: 16px !important;
+    flex-shrink: 0 !important;
+  }
+  
+  /* Fix for xs screens - custom breakpoint for very small phones */
+  @media (max-width: 375px) {
+    .Toastify__toast-container {
+      max-width: 250px;
+      right: 5px !important;
+    }
+    
+    .Toastify__toast {
+      padding: 8px;
+      min-height: 50px;
+    }
+    
+    .Toastify__toast-body {
+      font-size: 0.75rem;
+    }
+  }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+  .responsive-table th,
+  .responsive-table td {
+    padding: 0.5rem 0.25rem;
+    font-size: 0.75rem;
+  }
+  
+  /* Further reduce the size of toast on very small screens */
+  .Toastify__toast-container {
+    max-width: 250px;
+  }
+  
+  /* Hide some less important table columns on very small screens */
+  .responsive-table th:nth-child(3),
+  .responsive-table td:nth-child(3) {
+    display: none;
+  }
+}
