@@ -24,7 +24,7 @@ const Footer = () => {
             Copyright © {new Date().getFullYear()} - All right reserved by AuctionHub.
           </p>
           <p>
-            Developed by : <span className="font-semibold text-gray-600 underline"><a href="">Md:Shakil Ahamed</a></span>
+            Developed by : <span className="font-semibold text-gray-600 underline"><a href="">Md:Shakil Ahamed.dev</a></span>
           </p>
         </aside>
       </footer>
